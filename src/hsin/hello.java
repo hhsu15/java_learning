@@ -30,5 +30,9 @@ class hello {
 		String girlName = user_input.nextLine();
 		exampleClass myObj2 = new exampleClass(girlName);
 		myObj.saying();
+		
+		timmer militeryTime = new timmer();
+		militeryTime.setTime(9, 30, 30);
+		System.out.println(militeryTime.toMilitary());
 	}
 }

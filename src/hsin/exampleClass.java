@@ -20,6 +20,7 @@ public class exampleClass {
 	public void saying() {
 		// print f to using format
 		System.out.printf("The girl's name is %s", getName());
+		System.out.println();
 	}
 	
 	public void simpleMessage(String name) {
