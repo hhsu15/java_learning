@@ -34,5 +34,6 @@ class hello {
 		timmer militeryTime = new timmer();
 		militeryTime.setTime(9, 30, 30);
 		System.out.println(militeryTime.toMilitary());
+		System.out.println(militeryTime.toString());
 	}
 }

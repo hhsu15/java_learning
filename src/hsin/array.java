@@ -5,7 +5,10 @@ import java.util.Random;
 public class array{
 	public static void main(String args[]) {
 		//declare an array that has five elements as int
-		int myArray[] = new int[5];
+		
+		// interchangable
+//		int myArray[] = new int[5];
+		int[] myArray = new int[5];
 		
 		myArray[0] = 10;
 		myArray[1] = 19;
@@ -26,7 +29,7 @@ public class array{
 			System.out.println(count + "\t" + myArray[count]);
 		}
 		
-		//expand the array
+		//expand the array 
 		Random rand = new Random();
 		int freq[] = new int[7];
 		
