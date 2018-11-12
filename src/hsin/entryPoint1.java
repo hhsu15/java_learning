@@ -23,6 +23,8 @@ public class entryPoint1 {
 		//example of string representation 
 		tostring myobj5 = new tostring("Hsin"); //member 1
 		tostring myobj5_2 = new tostring("Jess"); //member 2
+		System.out.println(myobj5_2.getMembers());
+		System.out.println(tostring.getMembers()); //a little trick you can access "static" method
 		
 		//example of enum
 		for (enums people:enums.values()) { //java automatically gives you this static method to access the array of your enum
@@ -35,8 +37,8 @@ public class entryPoint1 {
 			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
 		}
 		
-		//hashmap
-		Map map = new HashMap();
+		//hashmap <keytype, valuetype>
+		Map<String, String> map = new HashMap<>();
 		map.put("name", new String("Hsin"));
 		Object value = map.get("name"); 
 		System.out.println(value);
